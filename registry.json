@@ -1,0 +1,10 @@
+{
+  "challenges": {
+    "hello-world": {
+      "title": "Hello, World!",
+      "short_desc": "The first program of every coder",
+      "difficulty": 1,
+      "keywords": ["string"]
+    }
+  }
+}
