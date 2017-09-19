@@ -1,0 +1,11 @@
+{
+  "name": "challenges",
+  "private": true,
+  "scripts": {
+    "test": "mocha -b $(find ./challenges -name test.js)",
+    "test:watch": "mocha -bw $(find ./challenges -name test.js)"
+  },
+  "dependencies": {
+    "mocha": "^3.5.3"
+  }
+}
