@@ -1,6 +1,7 @@
 const assert = require('assert')
 const helloWorld = require('./solution')
 
+/* eslint-env mocha */
 describe('hello-world', () => {
   it('exports a function', () => assert.equal(typeof helloWorld, 'function'))
 
