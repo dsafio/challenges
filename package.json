@@ -6,6 +6,6 @@
     "test:watch": "mocha -bw $(find ./challenges -name test.js)"
   },
   "dependencies": {
-    "mocha": "^3.5.3"
+    "mocha": "^4.0.0"
   }
 }
