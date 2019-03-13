@@ -7,7 +7,7 @@
     "lint": "standard --verbose"
   },
   "dependencies": {
-    "mocha": "^4.0.0",
-    "standard": "10.0.3"
+    "mocha": "^5.0.3",
+    "standard": "11.0.0"
   }
 }
