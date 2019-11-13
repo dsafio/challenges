@@ -3,10 +3,10 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "test": "mocha -b $(find ./challenges -name test.js)",
-    "test:watch": "mocha -bw $(find ./challenges -name test.js)",
+    "format": "prettier --write ./**/*.js",
     "lint": "prettier --check ./**/*.js",
-    "format": "prettier --write ./**/*.js"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "jest": "^24.9.0",
