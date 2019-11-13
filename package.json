@@ -9,6 +9,7 @@
     "format": "prettier --write ./**/*.js"
   },
   "dependencies": {
+    "jest": "^24.9.0",
     "mocha": "^5.0.3",
     "prettier": "^1.19.1"
   }
