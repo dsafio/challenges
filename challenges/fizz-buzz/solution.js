@@ -1,13 +1,13 @@
-function fizzBuzz (number) {
+function fizzBuzz(number) {
   if (number % 3 === 0 && number % 5 === 0) {
-    return 'Fizz Buzz'
+    return "Fizz Buzz";
   } else if (number % 3 === 0) {
-    return 'Fizz'
+    return "Fizz";
   } else if (number % 5 === 0) {
-    return 'Buzz'
+    return "Buzz";
   } else {
-    return number
+    return number;
   }
 }
 
-module.exports = fizzBuzz
+module.exports = fizzBuzz;
