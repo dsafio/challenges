@@ -5,7 +5,7 @@
   "scripts": {
     "format": "prettier --write ./**/*.js",
     "lint": "prettier --check ./**/*.js",
-    "test": "jest",
+    "test": "jest --verbose",
     "test:watch": "jest --watch"
   },
   "dependencies": {
